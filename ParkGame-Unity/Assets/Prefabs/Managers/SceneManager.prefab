@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8582889690800162845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5612358643294613037}
+  - component: {fileID: 5062407994639315082}
+  - component: {fileID: 141679673403888828}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5612358643294613037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582889690800162845}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.3323824, y: -4.264473, z: -39.714832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5062407994639315082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582889690800162845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d4bc26f3314cdba2739e9587783f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isPersistent: 1
+  UseSceneAssets: 0
+  MainMenu: 
+  PauseMenu: 
+  OptionsMenu: 
+  HudScene: 
+  GameOverScene: 
+  GameLevels: []
+--- !u!114 &141679673403888828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582889690800162845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e73037c105fc844cbe4d62f2fb08e2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainMenuScene: {fileID: 102900000, guid: 425f2181374bd804aa68e5c4261419c6, type: 3}
+  _pauseMenuScene: {fileID: 102900000, guid: 7508f2e904f985347a306ad380891fa7, type: 3}
+  _optionsMenuScene: {fileID: 0}
+  _hudScene: {fileID: 0}
+  _gameOverScene: {fileID: 102900000, guid: d460067177756fe448ab200906c40095, type: 3}
+  _gameScenesList:
+  - {fileID: 102900000, guid: e670d5d8d30982f4daa0b1e13c9872db, type: 3}
