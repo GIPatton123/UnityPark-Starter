@@ -1,16 +1,16 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/General/USS-Styles/UI-GlobalStyles.uss?fileID=7433441132597879392&amp;guid=b665921db076fe04cb8508ed16a4cac3&amp;type=3#UI-GlobalStyles" />
     <engine:VisualElement name="HUD" style="flex-grow: 1;">
-        <engine:VisualElement name="TopPanel" style="flex-grow: 0; flex-direction: row; max-width: 100px; max-height: 15px; min-height: 30px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+        <engine:VisualElement name="TopPanel">
             <engine:VisualElement name="Container" style="flex-grow: 1; min-width: auto; max-width: none; flex-direction: row; width: 25%;">
-                <engine:VisualElement name="Icon" class="collectedIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/trash-bin.png?fileID=2800000&amp;guid=da49da99c8e37e048ab6d18e8e9a0c78&amp;type=3#trash-bin&quot;); align-self: center; align-items: center; max-width: 10%; max-height: 80%; min-height: 100%; min-width: 20%; opacity: 1;" />
-                <engine:VisualElement name="Panel" class="collectedPanel" style="flex-grow: 1;">
+                <engine:VisualElement name="Icon" class="collectedIcon" />
+                <engine:VisualElement name="Panel" class="collectedPanel" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.23);">
                     <engine:Label text="Collected : 2/5" name="CounterText" selectable="false" class="InfoText" />
                 </engine:VisualElement>
             </engine:VisualElement>
         </engine:VisualElement>
         <engine:VisualElement name="Container" style="flex-grow: 1; width: 100%; height: 100%; justify-content: center; align-items: center;">
-            <engine:VisualElement name="MessageBox" style="flex-grow: 1;">
+            <engine:VisualElement name="MessageBox" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.23);">
                 <engine:Label text="Collect the trash bags and return them to the trash bin.&#10;Collect the required amount to open the gate and move to the next area." name="MessageText" class="note" />
                 <engine:Button text="Close" name="CloseButton" class="button" />
             </engine:VisualElement>

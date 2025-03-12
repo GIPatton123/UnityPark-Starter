@@ -97,6 +97,13 @@
 }
 
 #TopPanel {
+    max-height: 30%;
+    min-width: 100%;
+    min-height: 15%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 #Icon {
@@ -113,10 +120,14 @@
     visibility: visible;
 }
 
+.collectedIcon {
+    background-image: url("project://database/Assets/Sprites/trash-bin.png?fileID=21300000&guid=da49da99c8e37e048ab6d18e8e9a0c78&type=3#trash-bin");
+}
+
 #Panel {
     align-content: auto;
     flex-grow: 1;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.23);
 }
 
 .title {
@@ -215,10 +226,6 @@
     flex-wrap: wrap;
 }
 
-.collectedIcon {
-    background-image: url("project://database/Assets/Sprites/trash-bin.png?fileID=21300000&guid=da49da99c8e37e048ab6d18e8e9a0c78&type=3#trash-bin");
-}
-
 .collectedPanel {
     align-content: center;
     align-items: auto;
@@ -231,6 +238,9 @@
     padding-right: 5px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
+    opacity: 1;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .InfoText {
